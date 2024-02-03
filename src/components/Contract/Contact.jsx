@@ -4,13 +4,13 @@ import { useState } from "react";
 
 //Components
 import ContactList from "../ContractList/ContactList";
-import inputs from "../../constants/inputs"
+import inputs from "../../constants/inputs";
 
 //Fake id
 import { v4 } from "uuid";
 
 //Style
-import styles from "./Contact.module.css"
+import styles from "./Contact.module.css";
 
 
 const Contact = () => {

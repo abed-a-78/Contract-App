@@ -6,7 +6,7 @@ const Header = () => {
         <div className={styles.container}>
             <h1>Contact App</h1>
             <p>
-                <a href='https://google.com'>First resome</a> | React.js Course
+                <a href='https://github.com/abed-a-78'>First resome</a> | React.js Course
             </p>
         </div>
     );

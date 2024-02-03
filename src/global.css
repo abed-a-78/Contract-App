@@ -1,15 +1,22 @@
-* {
+*,
+::before,
+::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+  --primary-color: #304ffe;
+  --secondary-color: #eeeeee;
+  --text-color: #6b6b6b;
+  --radius-size: 10px;
+  --transition-time: 0.2s;
 }
 
 body {
+  font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
   margin: auto;
   max-width: 1000px;
   min-height: 100vh;
@@ -18,16 +25,29 @@ body {
 
 ::-webkit-scrollbar {
   width: 9px;
-  background-color: #eaeaea;
+  background-color: var(--secondary-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #304ffe;
-  border-radius: 5px;
+  background-color: var(--primary-color);
 }
 
 
 
 ::-webkit-scrollbar-button {
-  background-color: #304ffe;
+  background-color: #445199;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+input {
+  outline: none;
 }

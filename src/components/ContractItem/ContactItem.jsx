@@ -7,7 +7,7 @@ const ContactItem = ({ data: { id, name, lastName, email, phone }, deleteHandler
         <div>
             <li className={styles.item}>
                 <p>
-                    {name} {lastName}
+                    {name + ' ' + lastName} :
                 </p>
                 <p>
                     <span>📧</span>{email}
